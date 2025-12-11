@@ -1,0 +1,548 @@
+:root {
+  --black: #121212;
+  --white: #fff;
+  --brown: #bea69e;
+  --font-family: 'DM Sans', sans-serif;
+}
+
+body {
+  background: var(--black);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: -0.02em;
+  color: var(--white);
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+/* Page Header */
+
+.header-page {
+  padding-top: 20px;
+  margin-bottom: 80px;
+}
+
+.header-page .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 19px 50px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+}
+
+.logo-header {
+  margin-right: 209px;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.item-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.sign-up-button {
+  border-radius: 12px;
+  padding: 16px 84px;
+  background-color: var(--white);
+
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 156%;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+/* HERO Section */
+
+.hero-section {
+  padding-bottom: 150px;
+}
+
+.hero-section .container {
+  display: flex;
+  border-radius: 30px;
+  background: #1d1d1d;
+  padding: 80px 100px 0 50px;
+}
+
+.hero-info-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.hero-title {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 106%;
+  letter-spacing: -0.04em;
+  padding: 0 130px 0 0;
+  margin-bottom: 20px;
+}
+
+.hero-title-accent {
+  font-style: italic;
+  font-weight: 400;
+  color: var(--brown);
+}
+
+.hero-text {
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  padding: 0 260px 0 0;
+  margin-bottom: 136px;
+}
+
+.link-to-site {
+  display: flex;
+  gap: 40px;
+}
+
+.students {
+  display: flex;
+  gap: 12px;
+}
+
+.happy-students-link {
+  width: 82px;
+  letter-spacing: -0.04em;
+}
+
+.link-to-rewiews {
+  display: flex;
+  gap: 12px;
+}
+
+.link-rewiews {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  background: var(--brown);
+}
+
+.reviews-text {
+  letter-spacing: -0.04em;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 8px;
+}
+
+.rewiews-number {
+  font-weight: 500;
+  letter-spacing: -0.04em;
+}
+
+/* SECTION BIG TEXT */
+
+.section-big-text {
+  max-width: 1440px;
+  margin: 0 auto;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-right: none;
+  border-left: none;
+  padding: 24px 0;
+}
+
+.big-text-title {
+  font-weight: 400;
+  font-size: 57px;
+  line-height: 108%;
+  text-transform: uppercase;
+  color: var(--brown);
+}
+
+.big-text-accent {
+  color: var(--white);
+}
+
+/* Section ABOUT */
+
+.section-about {
+  padding: 150px 0;
+}
+
+.about-title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 113%;
+  letter-spacing: -0.04em;
+
+  margin-bottom: 50px;
+}
+
+.about-title-accent {
+  color: var(--brown);
+}
+
+.about-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.about-image {
+  width: auto;
+  height: auto;
+  padding-right: 10px;
+
+  transition: transform 0.4s ease;
+}
+
+.about-image:hover,
+.about-image:focus {
+  transform: rotate(90deg);
+}
+
+/* SECTION COURSES */
+
+.section-courses {
+  padding-bottom: 150px;
+}
+
+.courses-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.courses-title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 113%;
+  letter-spacing: -0.04em;
+}
+
+.courses-title-accent {
+  color: var(--brown);
+}
+
+.courses-text {
+  width: 565px;
+}
+
+.courses-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.courses-items {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  width: 400px;
+  height: 452px;
+  background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+}
+.courses-link-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  padding: 32px;
+}
+.courses-link-text {
+  font-size: 14px;
+  line-height: 129%;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.courses-items-about {
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+  padding: 0 32px 32px 32px;
+}
+
+.courses-items-title {
+  width: 265px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 114%;
+}
+.courses-items-text {
+  width: 336px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* SECTION MENTORS */
+
+.section-mentors {
+  padding-bottom: 150px;
+}
+
+.mentors-title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 113%;
+  letter-spacing: -0.04em;
+
+  margin-bottom: 50px;
+}
+
+.mentors-title-accent {
+  color: var(--brown);
+}
+
+.mentors-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.mentors-menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.mentors-photo {
+  margin-bottom: 12px;
+}
+
+.mentors-name {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 114%;
+}
+
+.mentors-exp {
+  font-size: 14px;
+  line-height: 129%;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* SECTION REGISTRATION */
+
+.section-registration {
+  padding-bottom: 150px;
+}
+
+.section-registration .container {
+  display: flex;
+}
+
+.registration-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 480px;
+  margin-right: 200px;
+}
+
+.registration-title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 113%;
+  letter-spacing: -0.04em;
+}
+
+.reg-title-accent {
+  color: var(--brown);
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 20px 0;
+}
+
+.input-reg {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  width: 480px;
+  height: 60px;
+  outline: none;
+  background-color: transparent;
+  padding: 0 18px;
+  color: var(--white);
+}
+
+.textarea {
+  height: 120px;
+  padding-top: 20px;
+}
+
+.input-reg::placeholder {
+  color: var(--white);
+  opacity: 0.7;
+}
+
+.registration-button {
+  border-radius: 12px;
+  padding: 16px 216px;
+  width: 480px;
+  height: 60px;
+
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 156%;
+  text-transform: uppercase;
+  color: var(--black);
+
+  background: var(--white);
+}
+
+.form-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.link-privacy {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+
+.image-box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.first-image {
+  border-radius: 1000px;
+  width: 190px;
+  height: 288px;
+
+  background: var(--brown);
+}
+
+.second-image {
+  border-radius: 1000px;
+  width: 350px;
+  height: 540px;
+
+  background: #1d1d1d;
+}
+
+.reg-photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*SECTION REVIEWS*/
+
+.section-reviews {
+  padding-bottom: 150px;
+}
+
+.reviews-title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 113%;
+  letter-spacing: -0.04em;
+
+  margin-bottom: 50px;
+}
+
+.reviews-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.reviews-item {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.reviews-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  margin-bottom: 20px;
+}
+
+.students-box {
+  display: flex;
+  gap: 10px;
+  width: 218px;
+}
+
+.students-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+
+  margin-bottom: 4px;
+}
+
+.students-text {
+  font-size: 14px;
+  line-height: 129%;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* FOOTER */
+
+.page-footer .container {
+}
+
+.footer-info {
+  display: flex;
+}
+
+.contacts-box {
+}
+.logo-footer {
+}
+.logo-icon {
+}
+.footer-phone {
+}
+.footer-address {
+}
+.socials-menu {
+}
+.social-menu-item {
+}
+.social-link {
+}
+.nav-menu {
+}
+.nav-menu-item {
+}
+.menu-link {
+}
+.send-email {
+}
+.private-policy {
+}

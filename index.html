@@ -3,17 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Focus.Frame</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+      rel="stylesheet"
+    />
+
+    <link href="./css/reset.css" rel="stylesheet" />
     <link href="./css/styles.css" rel="stylesheet" />
   </head>
   <body>
     <header class="header-page">
       <div class="container">
         <nav class="header-nav">
-          <a class="logo-header" href=""><img src="" alt="" /></a>
+          <a class="logo-header" href="./index.html">
+            <svg
+              class="logo-icon"
+              width="124"
+              height="17"
+              viewBox="0 0 124 17"
+              fill="none"
+            >
+              <use href="./images/Focus.Frame.svg"></use>
+            </svg>
+          </a>
           <ul class="header-menu">
             <li class="menu-item">
-              <a class="item-link" href="">About us</a>
+              <a class="item-link" href="./images/Focus.Frame.svg">About us</a>
             </li>
             <li class="menu-item">
               <a class="item-link" href="">Our courses</a>
@@ -39,34 +62,89 @@
         <div class="container">
           <div class="hero-info-box">
             <h1 class="hero-title">
-              Discover the magic of photography in our school
+              Discover the magic of
+              <span class="hero-title-accent">photography</span> in our school
             </h1>
             <p class="hero-text">
               Our photography school offers an unforgettable journey, where you
               can learn the basics of composition, master technical skills,
               translate your unique ideas.
             </p>
-            <div class="students-share"></div>
+            <div>
+              <div class="link-to-site">
+                <div class="students">
+                  <img
+                    src="./images/three-students.png"
+                    width="137"
+                    height="54px"
+                    alt="three students"
+                  />
+                  <a class="happy-students-link" href="">
+                    Our happy students
+                    <svg
+                      class="arrow-icon"
+                      width="18"
+                      height="9"
+                      viewBox="0 0 18 9"
+                      fill="none"
+                    >
+                      <use href="./images/Arrow.svg"></use>
+                    </svg>
+                  </a>
+                </div>
+                <div class="link-to-rewiews">
+                  <a class="link-rewiews" href="">
+                    <svg
+                      class="star-icon"
+                      width="19"
+                      height="18"
+                      viewBox="0 0 19 18"
+                      fill="none"
+                    >
+                      <use href="./images/Star.svg"></use>
+                    </svg>
+                  </a>
+                  <div class="reviews-box-hero">
+                    <p class="reviews-text">Reviews</p>
+                    <p class="rewiews-number">+1500</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="hero-image">
-          <img src="" alt="" />
+
+          <img
+            class="hero-img"
+            src="./images/Man-with-camera.png"
+            width="397"
+            height="520"
+            alt="Man with camera"
+          />
         </div>
       </section>
       <!-- SECTION BIG TEXT -->
       <section class="section-big-text">
         <div class="container">
           <h2 class="big-text-title">
-            Master<span>your photography </span>skills with us!
+            Master<span class="big-text-accent"> your photography </span>skills
+            with us!
           </h2>
         </div>
       </section>
       <!-- Section ABOUT -->
       <section class="section-about">
         <div class="container">
-          <h2 class="about-title">About Us</h2>
+          <h2 class="about-title">
+            About <span class="about-title-accent">Us</span>
+          </h2>
           <div class="about-info">
-            <img class="about-image" src="" alt="" />
+            <img
+              class="about-image"
+              src="./images/camera.png"
+              width="240"
+              height="560"
+              alt="camera"
+            />
             <p class="about-text">
               Our photography school is designed to teach you everything you
               need to know about this magical art. Regardless of your experience
@@ -90,7 +168,9 @@
       <section class="section-courses">
         <div class="container">
           <div class="courses-info">
-            <h2 class="courses-title">Our Courses</h2>
+            <h2 class="courses-title">
+              Our <span class="courses-title-accent">Courses</span>
+            </h2>
             <p class="courses-text">
               At our photography school, we offer a variety of courses that
               cover all aspects of this fascinating art. Regardless of your
@@ -98,70 +178,118 @@
               goals.
             </p>
           </div>
-          <div class="courses-type">
-            <ul class="courses-menu">
-              <li class="courses-items">
-                <div class="courses-link-box">
-                  <p class="courses-link-text">01</p>
-                  <a class="courses-link" href=""></a>
-                </div>
+          <ul class="courses-menu">
+            <li class="courses-items">
+              <div class="courses-link-box">
+                <p class="courses-link-text">01</p>
+                <a class="courses-link" href=""
+                  ><img
+                    src="./images/arrow.png"
+                    width="32"
+                    height="32"
+                    alt="link-arrow"
+                /></a>
+              </div>
+              <div class="courses-items-about">
                 <h3 class="courses-items-title">Basics of photography</h3>
                 <p class="courses-items-text">
                   During this course, you will be able to familiarize yourself
                   with different types of cameras, learn the basics of
                   composition.
                 </p>
-              </li>
-              <li class="courses-items">
-                <div class="courses-link-box">
-                  <p class="courses-link-text">02</p>
-                  <a class="courses-link" href=""></a>
-                </div>
+              </div>
+            </li>
+            <li class="courses-items">
+              <div class="courses-link-box">
+                <p class="courses-link-text">02</p>
+                <a class="courses-link" href=""
+                  ><img
+                    src="./images/arrow.png"
+                    width="32"
+                    height="32"
+                    alt="link-arrow"
+                /></a>
+              </div>
+              <div class="courses-items-about">
                 <h3 class="courses-items-title">Landscape photography</h3>
                 <p class="courses-items-text">
                   In this course, you'll learn how to choose the right angles,
                   frame landscapes, and create depth and perspective in your
                   images.
                 </p>
-              </li>
-              <li class="courses-items">
-                <div class="courses-link-box">
-                  <p class="courses-link-text">03</p>
-                  <a class="courses-link" href=""></a>
-                </div>
+              </div>
+            </li>
+            <li class="courses-items">
+              <div class="courses-link-box">
+                <p class="courses-link-text">03</p>
+                <a class="courses-link" href=""
+                  ><img
+                    src="./images/arrow.png"
+                    width="32"
+                    height="32"
+                    alt="link-arrow"
+                /></a>
+              </div>
+              <div class="courses-items-about">
                 <h3 class="courses-items-title">Portrait photography</h3>
                 <p class="courses-items-text">
                   During this course, you will learn to choose the right
                   lighting, reproduce the mood and expressions on the faces of
                   the models.
                 </p>
-              </li>
-            </ul>
-          </div>
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
       <!-- SECTION MENTORS -->
       <section class="section-mentors">
         <div class="container">
-          <h2 class="mentors-title">Our Mentors</h2>
+          <h2 class="mentors-title">
+            Our <span class="mentors-title-accent">Mentors</span>
+          </h2>
           <ul class="mentors-menu">
             <li class="mentors-menu-item">
-              <img class="mentors-photo" src="" alt="" />
+              <img
+                class="mentors-photo"
+                src="./images/mentor-1.png"
+                width="180"
+                height="180"
+                alt="Emilia Smith"
+              />
               <h3 class="mentors-name">Emilia Smith</h3>
               <p class="mentors-exp">1.5 years of experience</p>
             </li>
             <li class="mentors-menu-item">
-              <img class="mentors-photo" src="" alt="" />
+              <img
+                class="mentors-photo"
+                src="./images/mentor-2.png"
+                width="180"
+                height="180"
+                alt="Alex Lebedev"
+              />
               <h3 class="mentors-name">Alex Lebedev</h3>
               <p class="mentors-exp">3.5 years of experience</p>
             </li>
             <li class="mentors-menu-item">
-              <img class="mentors-photo" src="" alt="" />
+              <img
+                class="mentors-photo"
+                src="./images/mentor-3.png"
+                width="180"
+                height="180"
+                alt=""
+              />
               <h3 class="mentors-name">Mia Dubrovska</h3>
               <p class="mentors-exp">2.0 years of experience</p>
             </li>
             <li class="mentors-menu-item">
-              <img class="mentors-photo" src="" alt="" />
+              <img
+                class="mentors-photo"
+                src="./images/mentor-4.png"
+                width="180"
+                height="180"
+                alt=""
+              />
               <h3 class="mentors-name">Eliot Kovalev</h3>
               <p class="mentors-exp">4.0 years of experience</p>
             </li>
@@ -172,24 +300,54 @@
       <section class="section-registration">
         <div class="container">
           <div class="registration-box">
-            <h2 class="registration-title">Sign Up</h2>
+            <h2 class="registration-title">
+              Sign <span class="reg-title-accent">Up</span>
+            </h2>
             <p class="registration-text">
               Please use the form below to contact us. Enter your name, email,
               and message and we'll get back to you shortly.
             </p>
             <form class="registration-form">
-              <input type="text" placeholder="Enter your name" />
-              <input type="email" placeholder="Enter your email" />
-              <textarea placeholder="Message"></textarea>
-              <button class="registration-button"></button>
-              <p class="form-text">
-                By clicking on “Send” button, you agree to our Privacy Policy,
-                and allow Promodo to use this information for marketing
-                purposes.
-              </p>
+              <input
+                class="input-reg"
+                type="text"
+                placeholder="Enter your name"
+              />
+              <input
+                class="input-reg"
+                type="email"
+                placeholder="Enter your email"
+              />
+              <textarea
+                class="input-reg textarea"
+                placeholder="Message"
+              ></textarea>
             </form>
+            <button class="registration-button">SEND</button>
+            <p class="form-text">
+              By clicking on “Send” button, you agree to our
+              <a class="link-privacy" href="">Privacy Policy</a>, and allow
+              Promodo to use this information for marketing purposes.
+            </p>
           </div>
-          <img src="" alt="" />
+          <div class="image-box">
+            <div class="first-image reg-photo">
+              <img
+                src="./images/isabella-mendes.png"
+                width="163"
+                height="154"
+                alt="isabella-mendes"
+              />
+            </div>
+            <div class="second-image reg-photo">
+              <img
+                src="./images/video-entry-product.png"
+                width="254"
+                height="313"
+                alt="video-entry-product"
+              />
+            </div>
+          </div>
         </div>
       </section>
       <!-- SECTION REVIEWS -->
@@ -200,11 +358,24 @@
             <li class="reviews-item">
               <div class="reviews-box">
                 <div class="students-box">
-                  <img class="students-photo" src="" alt="" />
-                  <h3 class="students-name">Abraham Baker</h3>
-                  <p class="students-text">Student</p>
+                  <img
+                    class="students-photo"
+                    src="./images/user.png"
+                    width="56"
+                    height="56"
+                    alt="user 1"
+                  />
+                  <div>
+                    <h3 class="students-name">Abraham Baker</h3>
+                    <p class="students-text">Student</p>
+                  </div>
                 </div>
-                <div class="stars"></div>
+                <img
+                  src="./images/stars.png"
+                  width="116"
+                  height="20"
+                  alt="rating"
+                />
               </div>
               <div>
                 <p class="reviews-text">
@@ -219,11 +390,24 @@
             <li class="reviews-item">
               <div class="reviews-box">
                 <div class="students-box">
-                  <img class="students-photo" src="" alt="" />
-                  <h3 class="students-name">Amanda Lowery</h3>
-                  <p class="students-text">Student</p>
+                  <img
+                    class="students-photo"
+                    src="./images/user-2.png"
+                    width="56"
+                    height="56"
+                    alt="user 2"
+                  />
+                  <div>
+                    <h3 class="students-name">Amanda Lowery</h3>
+                    <p class="students-text">Student</p>
+                  </div>
                 </div>
-                <div class="stars"></div>
+                <img
+                  src="./images/stars.png"
+                  width="116"
+                  height="20"
+                  alt="rating"
+                />
               </div>
               <div>
                 <p class="reviews-text">
@@ -240,16 +424,28 @@
       </section>
     </main>
     <!--  -->
-    <footer>
+    <footer class="page-footer">
       <div class="container">
-        <div class="contacts-box">
-          <a class="logo-footer" href=""></a>
-          <a class="footer-phone" href="tel:+380665438912">+38 066 543 8912</a>
-          <a class="footer-address" href=""
-            >1678 S. Pioneer Road Salt Lake City UT 84104</a
-          >
-        </div>
-        <nav class="footer-nav">
+        <div class="footer-info">
+          <div class="contacts-box">
+            <a class="logo-footer" href="">
+              <svg
+                class="logo-icon"
+                width="124"
+                height="17"
+                viewBox="0 0 124 17"
+                fill="none"
+              >
+                <use href="./images/Focus.Frame.svg"></use></svg
+            ></a>
+            <a class="footer-phone" href="tel:+380665438912"
+              >+38 066 543 8912</a
+            >
+            <a class="footer-address" href=""
+              >1678 S. Pioneer Road Salt Lake City UT 84104</a
+            >
+          </div>
+
           <ul class="socials-menu">
             <li class="social-menu-item">
               <a class="social-link" href="">Instagram</a>
@@ -279,11 +475,11 @@
               <a class="menu-link" href="">contacts</a>
             </li>
           </ul>
-        </nav>
 
-        <div class="send-email">
-          <input type="email" placeholder="Enter your email" />
-          <button>Go</button>
+          <div class="send-email">
+            <input type="email" placeholder="Enter your email" />
+            <button>Go</button>
+          </div>
         </div>
       </div>
       <div class="container private-policy">
